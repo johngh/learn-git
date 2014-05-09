@@ -1,0 +1,40 @@
+Notes from Vlad's git talk Tech Friday 21 March 2014
+
+Commit message tense
+
+    git diff --staged
+
+    git log
+
+origin is just a name
+master is just a name (for the master branch)
+
+These are just conventions.
+
+Create a new branch:
+
+    git checkout -b new_branch
+
+Show status of branches:
+
+    git branch -list
+
+    git checkout master
+
+    git checkout new_branch
+
+(commit all)
+    git commit -am "message"
+
+    git merge master
+(do you need an add now?)
+
+"git pull" does a "git fetch" (to download and store but not to change it)
+Then it does "git merge"
+
+    git feature branch workflow
+
+    git push -u origin.
+
+
+
